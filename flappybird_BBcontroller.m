@@ -278,7 +278,7 @@ while 1
 end
 end
 
-%Proportional only controller for Flappy Bird.
+%Bang-Bang only controller for Flappy Bird.
 
     function error() % Function for calculating error
         GL1 = [128 177] - Tubes.VOffset(1) - 1; % Gap of 1st Tube 
