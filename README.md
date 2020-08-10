@@ -1,4 +1,4 @@
-# Bang-Bang Controller for Flappy bird
+# Bang-Bang Controller for Flappy Bird
 
 Author : Vishal Shetty
 
@@ -12,7 +12,7 @@ The game was developed in MATLAB by Mingjing Zhang and posted on Mathworks file 
 
 1. The game employs feedback and feed-forward control strategy for error calculation.
 2. The feedback element is the position of the bird on the Y-axis and the feed-forward element is the position of the gap present in the tube on the Y-axis which is randomly generated with each passing tube.
-3. If the error is negative,the controller gives an instruction to jump and if the error is positve the controller will give the instruction to fall, to dodge the obstacles approaching the bird.
+3. If the error is negative,the controller gives an instruction to jump and if the error is positive the controller will give the instruction to fall, to dodge the obstacles approaching the bird.
 4. There are two tuning parameters : 
 i. The position on the X-axis at the which the set-point is updated for the next tube.
 ii.The distance of the set-point from the top section of the bottom tube.
